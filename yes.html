@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="Assests /heart.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="photo-conteiner">
+        <img src="Assests /photo05.jpeg" class="photo" alt="phto05">
+        <img src="Assests /photo06.jpg" class="photo" alt="phto06">
+        <img src="Assests /photo07.jpeg" class="photo" alt="phto07">
+        <img src="Assests /photo08.jpg" class="photo" alt="phto08">
+    </div>
+     <h1 id="heart">❤️</h1>
+     <h1 id="loveYou">Sua mensagem fofa aqui!!!
+     </h1>
+     <div id="photo-conteiner">
+        <img src="Assests /photo01.jpeg" class="photo" alt="phto01">
+        <img src="Assests /photo02.jpg" class="photo" alt="phto02">
+        <img src="Assests /photo03.jpg" class="photo" alt="phto03">
+        <img src="Assests /photo04.jpeg" class="photo" alt="phto04">
+    </div>
+     <video id="yesvideo" width="0" height="0" controls>
+        <source src="Assests /The Good Ending Sound Effect.mp4" 
+           type="video/mp4">
+    </video>
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        playAudioYes();
+    });
+
+    function playAudioYes(){
+        document.getElementById('yesvideo').play();
+    };
+</script>
+</html>

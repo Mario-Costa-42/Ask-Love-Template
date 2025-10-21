@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #e66f83fa;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+    font-size: 9vw;
+    margin-top: 2;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#cuteImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color:  #ff8e9f;
+}
+
+#btnNao{
+    position: relative;
+}
+
+#photo-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+.photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+  
+#heart{
+    text-align: center;
+    font-size: 200px;
+}
+
+#loveYou{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
